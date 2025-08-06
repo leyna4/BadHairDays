@@ -47,7 +47,6 @@ public class CustomerDialog : MonoBehaviour
     private void StartHairTutorial()
     {
         Debug.Log("Saç kesim tutorial baþladý...");
-        // Buraya saç iþlemleriyle ilgili UI’lar açýlacak
         FindObjectOfType<HairTutorial>().StartTutorial();
     }
 }
